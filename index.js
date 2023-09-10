@@ -1,12 +1,12 @@
-let userName = "nahu";
+let userName = "Nahuel";
 
 let age = 20;
 
 let hasHobbies = false;
 
 let points = {
-  name: "nahuel",
-  lastname: "garcia",
+  name: "Nahuel",
+  lastname: "Garcia",
 };
 
 const PI = 3.1416;
