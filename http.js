@@ -15,14 +15,12 @@ const server = http.createServer((request, response) => { //definimos la constan
     return response.end(); // retorna esta respuesta al cliente
   }
 
-  response.write(`
-        <h1> Not Found </h1>
-        <p> This page is not available </p>
-        <a href='/'> Return to main page </a>
-    `); //es lo que enseña el servidor a la hora de visitar el sitio
+  response.write(`<h1> Not Found </h1> <p> This page is not available </p> <a href='/'> Return to main page </a>`); //es lo que enseña el servidor a la hora de visitar el sitio
   response.end();
 });
 
 server.listen(3000); //indica el puerto en el que esta escuchando la app
 
 console.log("Servidor escuchando en el puerto 3000");
+
+// Para levantar un servidor de prueba con node se puede ejecutar el siguiente comando: npx serve -s path_public/
