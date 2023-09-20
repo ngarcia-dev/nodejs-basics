@@ -6,6 +6,7 @@
     "lodash": "^4.17.21",
     "nodemon": "^3.0.1"
   },
+  "type": "module",
   "scripts": {
     "divaca": "cowsay Hello World!!!"
   }
